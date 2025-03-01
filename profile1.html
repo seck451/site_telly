@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mot de passe</title>
+    <link rel="stylesheet" href="diashboard.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<link rel="stylesheet" href="profile.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            
+            <div class="ensemble">
+            <div class="tp">
+            <ion-icon name="menu-outline"></ion-icon>
+        </div>
+        <div class="recherche">
+            <div class="inp">
+            <input type="text" placeholder="Recherche...">
+            <a href="#"><ion-icon name="search-outline"></ion-icon></a>
+            </div>  
+        </div>
+        <div class="img">
+                <img src="avatar-maker.png" id="avatar" alt="">
+                <a href="#"><ion-icon name="chevron-down-outline"></ion-icon></a>
+            </div>
+        </div>
+        </header>
+        <aside class="sidebar">
+            <div class="photo">
+                <img src="Avatar-Maker.png" alt="">
+                <h4>John Doe</h4>
+            </div>
+            <div class="dash"><a href="dashboard.html"><ion-icon name="speedometer-sharp"></ion-icon>Dashboard</a></div>
+            <ul class="menu">
+                <li><a href="#"><ion-icon name="create-sharp"></ion-icon>Article<ion-icon name="chevron-forward" class="fleche"></ion-icon></a></li>
+                <li><a href="#"><ion-icon name="grid"></ion-icon>Categories <ion-icon name="chevron-forward" class="fleche"></ion-icon></a></li>
+                <li><a href="#"><ion-icon name="person"></ion-icon>Auteurs <ion-icon name="chevron-forward" class="fleche"></ion-icon></a></li>
+                <li><a href="#"><ion-icon name="file-tray-full-sharp"></ion-icon>Commentaires</a></li>
+                <li><a href="#"><ion-icon name="earth-sharp"></ion-icon>Medias Sociaux<ion-icon name="chevron-forward" class="fleche"></ion-icon></a></li>
+                <li><a href="#"><ion-icon name="call-sharp"></ion-icon>Contacts</a></li>
+                <li><a href="parametre.html"><ion-icon name="settings-sharp"></ion-icon>Paramètres</a></li>
+                <li><a href="#"><ion-icon name="document-text"></ion-icon>Pages<ion-icon name="chevron-forward" class="fleche"></ion-icon></a></li>
+            </ul>
+        </aside>
+        <main class="content">
+            <h2>Hello, Bonjour Jahn Doe!</h2>
+            <p>Dashboard/ profile</p>
+                <div class="john_img">
+                    <img src="Avatar-Maker.png" alt="">
+                <div class="name">
+                    <h4>John Doe</h4>
+                    <p>Admin</p>
+                </div>
+                </div> 
+                <div class="apt">
+                    <a href="profile.html">A propos</a>
+                    <a href="profile1.html" >Mot de passe</a>
+                </div>
+            <div class="section">
+                <div class="haut">
+                    <p>Mot de passe les mot de passe</p>
+                </div>
+                <div class="bas">
+                    <form action="">
+                        <div class="form">
+                            <label for="old-password">Ancien mot de passe</label>
+                            <br>
+                            <input type="password" id="old-password" name="old-password">
+                        </div>
+                        <div class="form">
+                            <label for="new-password">Nouveau mot de passe</label>
+                            <br>
+                            <input type="password" id="new-password" name="new-password">
+                        </div>
+                        <div class="form">
+                            <label for="confirm-password">Confirmer mot de passe</label><br>
+                            <input type="password" id="confirm-password" name="confirm-password">
+                        </div>
+                        <div class="btn">
+                            <button type="submit">Enregistrer les modifications</button>
+                        </div>
+                    </form>
+                </div>
+            </div>  
+        </main>
+    </div>
+</body>
+</html>

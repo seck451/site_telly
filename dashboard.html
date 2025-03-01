@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page avec Sidebar et Menu</title>
+    <link rel="stylesheet" href="diashboard.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            
+            <div class="ensemble">
+            <div class="tp">
+            <ion-icon name="menu-outline"></ion-icon>
+        </div>
+        <div class="recherche">
+            <div class="inp">
+            <input type="text" placeholder="Recherche...">
+            <a href="#"><ion-icon name="search-outline"></ion-icon></a>
+            </div>  
+        </div>
+        <div class="img">
+                <img src="avatar-maker.png" id="avatar" alt="">
+                <a href="#"><ion-icon name="chevron-down-outline"></ion-icon></a>
+            </div>
+        </div>
+        </header>
+        <aside class="sidebar">
+            <div class="photo">
+                <img src="Avatar-Maker.png" alt="">
+                <h4>John Doe</h4>
+            </div>
+            <div class="dash"><a href="#"><ion-icon name="speedometer-sharp"></ion-icon>Dashboard</a></div>
+            <ul class="menu">
+                <li><a href="#"><ion-icon name="create-sharp"></ion-icon>Article<ion-icon name="chevron-forward" class="fleche"></ion-icon></a></li>
+                <li><a href="#"><ion-icon name="grid"></ion-icon>Categories <ion-icon name="chevron-forward" class="fleche"></ion-icon></a></li>
+                <li><a href="#"><ion-icon name="person"></ion-icon>Auteurs <ion-icon name="chevron-forward" class="fleche"></ion-icon></a></li>
+                <li><a href="#"><ion-icon name="file-tray-full-sharp"></ion-icon>Commentaires</a></li>
+                <li><a href="#"><ion-icon name="earth-sharp"></ion-icon>Medias Sociaux<ion-icon name="chevron-forward" class="fleche"></ion-icon></a></li>
+                <li><a href="#"><ion-icon name="call-sharp"></ion-icon>Contacts</a></li>
+                <li><a href="#"><ion-icon name="settings-sharp"></ion-icon>Paramètres</a></li>
+                <li><a href="#"><ion-icon name="document-text"></ion-icon>Pages<ion-icon name="chevron-forward" class="fleche"></ion-icon></a></li>
+            </ul>
+        </aside>
+        <main class="content">
+            <h2>Hello, Bonjour Jahn Doe!</h2>
+            <p>Dashboard</p>
+            <div class="partie">
+                <div class="sous sous1">
+                   <div>
+                    <p><strong>236</strong></p>
+                    <p>Total Articles</p>
+                   </div>
+                    <ion-icon name="person-add-sharp" id="icon" class="pr"></ion-icon>
+                </div>
+                <div class="sous sous1">
+                    <div>
+                        <p><strong>10</strong></p>
+                    <p>Total Categories</p>
+                    </div>
+                    <ion-icon name="logo-usd" id="icon" class="dx"></ion-icon>
+                </div>
+                <div class="sous sous1">
+                    <div>
+                      <p><strong>1538</strong></p>
+                    <p>Total Commentaires</p>  
+                    </div>
+                    <ion-icon name="documents-sharp" id="icon"></ion-icon>
+                </div>
+                <div class="sous sous1">
+                    <div>
+                    <p><strong>364</strong></p>
+                    <p>Total Abonnements</p> 
+                    </div>
+                    <ion-icon name="globe-sharp" id="icon"></ion-icon>
+                </div>
+            </div>
+            <div class="tableau">
+                <div class="ligne1">
+                <div>Articles rescents</div>
+                <div class="lien"><a href="#">Voir tous</a></div>   
+                </div>
+            <div class="ligne2">
+                <div>ID Articles</div>
+                <div>Image</div>
+                <div>Titre</div>
+                <div>Categories</div>
+                <div>Auteurs</div>
+                <div>Publication</div>
+            </div>
+            <div class="ligne3">
+                <div>ART-0001</div>
+                <div></div>
+                <div>Intelligence artificielle</div>
+                <div>Tech</div>
+                <div>John Doe</div>
+                <div class="pub"><a href="profile.html">PUBLIE</a></div>
+            </div>
+        </table>
+    </div>
+        </main>
+    </div>
+</body>
+</html>

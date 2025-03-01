@@ -1,0 +1,251 @@
+/* styles.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-areas:
+        "saidebar header"
+        "sidebar content";
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: auto 1fr;
+    height: 100vh;
+    width: 100%;
+}
+
+.header {
+    grid-area: header;
+    background-color: white;
+    color: white;
+    padding-top: 10px;
+    text-align: center;
+    height: 250px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    height: 50px;
+    display: flex;
+}
+
+.sidebar {
+    grid-area: sidebar;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 15px;
+    position: relative;
+    top: -60px;
+    height: 104%;
+    box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 15px 0;
+}
+
+.content {
+    grid-area: content;
+    padding: 15px;
+    background-color: #ecf0f1;
+}
+.photo img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.photo{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    text-align: center;
+    color: #09a295;
+    margin-bottom: 20px;
+}
+.dash a{
+    margin-bottom: 30px;
+    text-decoration: none;
+    color: #ffffff;
+    display: flex;
+    gap: 10px;
+}
+.dash{
+    width: 150px;
+    height: 20px;
+    text-align: center;
+    padding: 7px;
+    border-radius: 5px;
+    background-color: #09a295;
+}
+
+.menu a{
+    gap: 8px;
+    text-decoration: none;
+    color: #000000;
+    display: flex;
+}
+.menu a:hover{
+    color: #ffffff;
+    background-color: #09a295;
+    padding: 5px;
+    border-radius: 5px;
+}
+.partie{
+    display: flex;
+    gap: 20px;
+}
+.partie .sous{
+    background-color: #ffffff;
+    width: 235px;
+    align-items: center;
+    padding-left: 10px;
+    border-radius: 3px;
+    color: #09a295;
+}
+.sous p{
+    font-size: 15px;
+}
+.sous1{
+    display: flex;
+}
+#icon{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    left: 30%;
+}
+.pr{
+    margin-left: 20%;
+}
+.dx{
+    margin-left: 10%;
+}
+
+.tableau{
+    background-color: #ffffff;
+    margin-top: 3%;
+    gap: 10px;
+    height: 180px;
+    width: 1050px;
+}
+.ligne1{
+    display: flex;
+    padding-left: 15px;
+}
+.ligne1 div{
+    width: 180px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.ligne2 div{
+    width: 180px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.ligne3 div{
+    width: 180px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.ligne2{
+    display: flex;
+    background-color: #e6e6edb0;
+    padding-left: 15px;
+}
+.ligne3{
+    display: flex;
+    padding-left: 15px;
+}
+.lien a{
+    text-decoration: none;
+    color: #ffffff;
+    position: relative;
+    left: 690px;
+    background-color: #09a295;
+    padding: 10px;
+    border-radius: 5px;
+}
+.lien a:hover{
+    background-color: #ffffff;
+    color: #09a295;
+}
+.pub a{
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #09a295;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 20px;
+}
+.pub a:hover{
+    background-color: #ffffff;
+    color: #09a295;
+}
+.recherche{
+    background-color: #09a295;
+    width: 195px;
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    border-radius: 40px;
+    align-items: center;
+}
+.recherche input{
+    border: none;
+    background-color: transparent; /* Fond transparent */
+    color: #ffffff;
+    outline: none;
+}
+.recherche a{
+    text-decoration: none;
+    color: #ffffff;
+    position: relative;
+    top: 2px;
+}
+input::placeholder{
+    color: #ffffff;
+}
+.ensemble{
+    display: flex;
+    align-items: center;  
+    gap: 10px;
+    position: relative;
+    left: 70%;
+}
+.ensemble .tp{
+    position: relative;
+    left: -740px;
+    font-size: 25px;
+}
+.img{
+    display: flex;
+    color: black;
+    align-items: center;
+    margin-left: 3px;
+}
+.img a{
+    display: flex;
+    color: black;
+    align-items: center;
+}
+#avatar{
+    width: 33px;
+    height: 33px;
+}
+.fleche{
+    position: relative;
+    display: inline-block;
+}
+.tp{
+    color: #09a295;
+}
+.recherche{
+    display: flex;
+    gap: 20px;
+    position: relative;
+    left: 10px;
+}
